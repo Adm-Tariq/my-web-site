@@ -1,0 +1,96 @@
+
+#contact{
+    width: 100% !important;
+    background-color:#FCFCFC;
+}
+
+.head{
+
+}
+
+.head h4{
+    color: #8A99A6;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 3px;
+}
+
+.head h2{
+    
+}
+
+#contact .contact-info{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+#contact .contact-info i{
+    color: #053EFF;
+   font-size: 25px;
+}
+
+#contact .contact-info h5{
+    color: #053EFF;
+   font-size: 18px;
+   color: #8A99A6;
+   margin-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+    #contact .contact-info h5{
+       font-size: 23px;
+    }
+
+    #contact .contact-info i{
+       font-size: 33px;
+    }
+      
+  }
+
+#contact .social-links{
+    color: #053EFF;
+   font-size: 18px;
+   color: #8A99A6;
+   margin-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+
+    #contact .social-links{
+        font-size: 25px;
+    }
+  }
+
+#contact .btn{
+    width: 100%;
+    font-family: inherit !important;
+    font-weight: 600 !important;
+    color: #afc3ff !important;
+    background-color: #053EFF !important;
+}
+
+
+@media (min-width: 992px) {
+    #contact .btn{
+        width: 30%;
+        margin-left: auto;
+        display: block;
+    }
+  }
+
+form label{
+    color: #42446E;
+    font-weight: 700;
+}
+
+.form-control{
+    background-color: #F8F8F8 !important;
+}
+.form-control:focus{
+    box-shadow: unset !important;
+}
+
+

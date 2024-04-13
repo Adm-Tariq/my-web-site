@@ -1,0 +1,135 @@
+.head{
+    margin-bottom: 30px;
+}
+
+.head h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: #8A99A6;
+}
+
+
+.card{
+    width: 17rem;
+    max-height: 360px;
+    min-height: 360px;
+}
+
+ @media (min-width: 768px) {
+   
+.card{
+    width: 18rem;
+}
+    
+  } 
+
+  @media (min-width: 1200px) {
+   
+    .card{
+        width: 20rem;
+    }
+        
+      } 
+
+.project-item .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.project-item .card-title{
+    font-weight: 700;
+}
+
+.project-item p{
+    color: #8A99A6;
+}
+
+.project-item a{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: 0;
+        border: 0;
+        background-color: #053EFF;
+        padding: 9px !important;
+}
+.project-item a:hover{
+    background-color: #2155ff; 
+}
+
+.project-item a img{
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.two-lines {
+    display: -webkit-box;
+    width: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+
+.btn-showAll{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width: 992px) {
+    .btn-showAll{
+        
+        justify-content: right;
+    }
+    
+  }
+
+
+.btn-showAll a{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border: 0;
+    background-color: #053EFF;
+    padding: 9px !important;
+}
+
+@media (min-width: 768px) {
+    .btn-showAll a{
+        margin-top: 10px;
+        width: 30%;
+        height: 40px;
+        /* margin-right: 65px; */
+    }
+    
+  }
+
+  @media (min-width: 992px) {
+    .btn-showAll a{
+        margin-top: 25px;
+        width: 20%;
+
+    }
+    
+  }
+
+
+
+.btn-showAll a:hover{
+    background-color: #1b50ff;
+    color: #7697FC !important;
+}
+.btn-showAll a{
+    color: #7697FC;
+    font-weight: 600;
+}
+.btn-showAll a img{
+    margin-left: 8px;
+}

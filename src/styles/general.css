@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+section{
+    padding: 80px 0;
+    /* height: 100vh; */
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+a{
+    color: #8A99A6;
+}
+
+a:hover{
+    color: #053EFF !important;
+}
+
+.heading{
+    color: #053EFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.heading span{
+    color: #42446E;
+}
+
+@media (min-width: 768px) {
+    .heading{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+  }
+
+  @media (min-width: 992px) {
+    .heading{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    
+  }
