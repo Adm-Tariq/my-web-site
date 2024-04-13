@@ -18,13 +18,6 @@ const ContactMe = () => {
         }
     }
 
-    // useEffect(() => {
-    //     form.addEventListener('submit', (e) => {
-    //         e.preventDefault()
-    //     })
-
-    // }, [])
-
     return (
 
 
