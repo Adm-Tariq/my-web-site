@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import "../styles/contactMe.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "react-router-dom";
 
 const ContactMe = () => {
