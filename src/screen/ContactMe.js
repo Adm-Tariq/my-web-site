@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
+import Swal from 'sweetalert2';
 import "../styles/contactMe.css"
 import { Link } from "react-router-dom";
 
+
+
 const ContactMe = () => {
-
-    const form = document.querySelector("#form")
-
 
     const isValid = (e) => {
         if (e.target.value === "") {
@@ -15,6 +14,72 @@ const ContactMe = () => {
             e.target.classList.add("is-valid")
         }
     }
+
+
+    const name = document.querySelector("#name");
+    const email = document.querySelector("#email");
+    const message = document.querySelector("#message");
+
+
+    function checkInput(e) {
+        e.preventDefault();
+
+        if (name.value !== "" || email.value !== "" || message.value !== "") {
+            sendMil();
+        }
+    }
+
+    // "zibu etbo wajp mqbk"
+    function sendMil() {
+        var data = {
+            service_id: "service_v2tgrwd",
+            template_id: "template_mdkjdh9",
+            user_id: "x8gDEXZLVaNPIm-4a",
+            template_params: {
+                from_name: name.value,
+                name: name.value,
+                email: email.value,
+                message: message.value,
+            },
+        };
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://api.emailjs.com/api/v1.0/email/send");
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                alert("Your email has been sent!", "success")
+            } else {
+                alert("The message was not sent", "error")
+            }
+        };
+        xhr.onerror = function () {
+            alert("The message was not sent", "error")
+        };
+        xhr.send(JSON.stringify(data));
+    }
+
+
+    const alert = (message, status) => {
+        const Toast = Swal.mixin({
+            toast: true,
+            position: "top-end",
+            showConfirmButton: false,
+            timer: 10000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.onmouseenter = Swal.stopTimer;
+                toast.onmouseleave = Swal.resumeTimer;
+            }
+        });
+        Toast.fire({
+            icon: status,
+            title: message
+        });
+    }
+
+
+
 
     return (
 
@@ -30,41 +95,41 @@ const ContactMe = () => {
                     <div className="col col-lg-3">
                         <div className="contact-info">
                             <div className="email mb-3">
-                                <i class="bi bi-envelope-at"></i>
+                                <i className="bi bi-envelope-at"></i>
                                 <h5>adam.tarek.m11@gmail.com</h5>
                             </div>
                             <div className="phone">
-                                <i class="bi bi-telephone"></i>
+                                <i className="bi bi-telephone"></i>
                                 <h5>+20 102 4533 952</h5>
                             </div>
                         </div>
 
                         <div className="social-links d-flex justify-content-center gap-3">
-                            <Link to={"#"} className={"nav-link"} aria-current="page"><i class="bi bi-github"></i></Link>
-                            <Link to={"#"} className={"nav-link"} aria-current="page"><i class="bi bi-instagram"></i></Link>
-                            <Link to={"#"} className={"nav-link"} aria-current="page"><i class="bi bi-whatsapp"></i></Link>
+                            <Link target='_blank' to={"https://github.com/Adm-Tariq"} className={"nav-link"} aria-current="page"><i className="bi bi-github"></i></Link>
+                            <Link target='_blank' to={"https://www.instagram.com/adamtarek_m/"} className={"nav-link"} aria-current="page"><i className="bi bi-instagram"></i></Link>
+                            <Link target='_blank' to={"https://api.whatsapp.com/send/?phone=201228562524"} className={"nav-link"} aria-current="page"><i className="bi bi-whatsapp"></i></Link>
                         </div>
 
                     </div>
 
                     <div className="col col-lg-6 mt-5">
-                        <form id="form">
-                            <div class="mb-3">
-                                <label for="name" className="form-label">Name</label>
+                        <form id="form" className="contactForm" onSubmit={(e) => checkInput(e)}>
+                            <div className="mb-3">
+                                <label htmlFor="name" className="form-label">Name</label>
                                 <input type="text" className={"form-control"} id="name" onChange={(e) => isValid(e)} required />
                             </div>
 
-                            <div class="mb-3 ">
-                                <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control " id="email" onChange={(e) => isValid(e)} required />
+                            <div className="mb-3 ">
+                                <label htmlFor="email" className="form-label">Email address</label>
+                                <input type="email" className="form-control " id="email" onChange={(e) => isValid(e)} required />
                             </div>
 
-                            <div class="mb-3 ">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control " id="message" onChange={(e) => isValid(e)} required />
+                            <div className="mb-3 ">
+                                <label htmlFor="message" className="form-label">Message</label>
+                                <textarea className="form-control " id="message" onChange={(e) => isValid(e)} required />
                             </div>
 
-                            <button type="submit" class="btn">Send</button>
+                            <button type="submit" className="btn">Send</button>
                         </form>
 
 

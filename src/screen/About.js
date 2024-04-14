@@ -13,15 +13,15 @@ const About = () => {
                         <div className="row d-grid d-md-flex justify-content-md-between align-items-md-center">
                             <div className="col col-md-6 col-lg-3 mb-2 mb-md-0">
                                 <h4 className="d-inline ">Experience:</h4>
-                                <button type="button" class="btn d-inline ">1 Year<span class="badge"></span></button>
+                                <button type="button" className="btn d-inline ">1 Year<span className="badge"></span></button>
                             </div>
                             <div className="col col-md-6 col-lg-5 mb-2 mb-md-0">
                                 <h4 className="d-inline">Specialty:</h4>
-                                <button type="button" class="btn d-inline ">Management Information Systems<span class="badge"></span></button>
+                                <button type="button" className="btn d-inline ">Management Information Systems<span className="badge"></span></button>
                             </div>
                             <div className="col col-lg-4 mb-2 mt-md-3">
                                 <h4 className="d-inline">Address:</h4>
-                                <button type="button" class="btn d-inline ">Girga, Sohag, EG<span class="badge"></span></button>
+                                <button type="button" className="btn d-inline ">Girga, Sohag, EG<span className="badge"></span></button>
                             </div>
                         </div>
                     </div>
@@ -35,27 +35,27 @@ const About = () => {
                         </div>
                         <div className="row d-grid mt-3 " >
                             <div className="col image">
-                                <img src="https://upcdn.io/12a1yuU/raw/images/html.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/css.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/js.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/react.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/redux.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/bootstrab.svg" class="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/html.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/css.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/js.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/react.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/redux.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/bootstrab.svg" className="rounded" alt="..." />
                             </div>
                             <div className="col image">
-                                <img src="https://upcdn.io/12a1yuU/raw/images/sass.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/jquery.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/php.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/Node.js.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/expressjs.svg" class="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/sass.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/jquery.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/php.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/Node.js.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/expressjs.svg" className="rounded" alt="..." />
                             </div>
                             <div className="col image">
-                                <img src="https://upcdn.io/12a1yuU/raw/images/firebase-seeklogo.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/mysql-seeklogo.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/mongos.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/git.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/githup.svg" class="rounded" alt="..." />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/vs.svg" class="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/firebase-seeklogo.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/mysql-seeklogo.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/mongos.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/git.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/githup.svg" className="rounded" alt="..." />
+                                <img src="https://upcdn.io/12a1yuU/raw/images/vs.svg" className="rounded" alt="..." />
                             </div>
 
                         </div>

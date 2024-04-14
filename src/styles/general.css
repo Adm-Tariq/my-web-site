@@ -47,3 +47,7 @@ a:hover{
     }
     
   }
+
+  .swal2-container{
+    z-index: 99999;
+  }

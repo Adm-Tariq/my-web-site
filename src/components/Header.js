@@ -28,40 +28,40 @@ const Header = () => {
 
     return (
         <header className="position-relative">
-            <nav class="navbar navbar-expand-lg  position-fixed  pt-4" >
-                <div class="container ">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg  position-fixed  pt-4" >
+                <div className="container ">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
 
-                            <li class="nav-item">
+                            <li className="nav-item">
 
-                                <LinkScroll onClick={() => { setActive(0); }} link-id="home" to="home" smooth={true} duration={500} className={"nav-link in-page"} aria-current="page"> <i class="bi bi-house"></i> Home</LinkScroll>
+                                <LinkScroll onClick={() => { setActive(0); }} link-id="home" to="home" smooth={true} duration={500} className={"nav-link in-page"} aria-current="page"> <i className="bi bi-house"></i> Home</LinkScroll>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
 
-                                <LinkScroll onClick={() => { setActive(1) }} link-id="about" to="about" smooth={true} duration={500} className={"nav-link in-page"} aria-current="page"><i class="bi bi-person"></i> About</LinkScroll>
+                                <LinkScroll onClick={() => { setActive(1) }} link-id="about" to="about" smooth={true} duration={500} className={"nav-link in-page"} aria-current="page"><i className="bi bi-person"></i> About</LinkScroll>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
 
-                                <LinkScroll onClick={() => { setActive(2) }} link-id="projects" to="projects" smooth={true} duration={500} className={"nav-link in-page"} aria-current="page"><i class="bi bi-columns-gap"></i> Project's</LinkScroll>
+                                <LinkScroll onClick={() => { setActive(2) }} link-id="projects" to="projects" smooth={true} duration={500} className={"nav-link in-page"} aria-current="page"><i className="bi bi-columns-gap"></i> Project's</LinkScroll>
                             </li>
 
-                            <li class="nav-item">
-                                <LinkScroll onClick={() => { setActive(3) }} link-id="contact" to="contact" smooth={true} duration={500} className={"nav-link in-page"} aria-current="page"><i class="bi bi-person-lines-fill"></i> Contact</LinkScroll>
+                            <li className="nav-item">
+                                <LinkScroll onClick={() => { setActive(3) }} link-id="contact" to="contact" smooth={true} duration={500} className={"nav-link in-page"} aria-current="page"><i className="bi bi-person-lines-fill"></i> Contact</LinkScroll>
                             </li>
 
 
                         </ul>
                     </div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <Link to={"https://upcdn.io/12a1yuU/raw/cv/Adam-cv.pdf"} target="_blank" className={"nav-link cv"}><i class="bi bi-file-earmark-person"></i>CV</Link>
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link to={"https://upcdn.io/12a1yuU/raw/cv/Adam-cv.pdf"} target="_blank" rel="noreferrer" className={"nav-link cv"}><i className="bi bi-file-earmark-person"></i>CV</Link>
                         </li></ul>
                 </div>
             </nav>
