@@ -16,26 +16,21 @@ const ContactMe = () => {
     }
 
 
-    const name = document.querySelector("#name");
-    const email = document.querySelector("#email");
-    const message = document.querySelector("#message");
-
-
     function checkInput(e) {
         e.preventDefault();
-        sendMil()
+        sendMil(e.target[0].value, e.target[1].value, e.target[2].value)
     }
 
-    function sendMil() {
+    function sendMil(name, email, message) {
         var data = {
             service_id: "service_v2tgrwd",
             template_id: "template_mdkjdh9",
             user_id: "x8gDEXZLVaNPIm-4a",
             template_params: {
-                from_name: name.value,
-                name: name.value,
-                email: email.value,
-                message: message.value,
+                from_name: name,
+                name: name,
+                email: email,
+                message: message,
             },
         };
 
