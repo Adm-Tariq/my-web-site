@@ -29,7 +29,6 @@ const ContactMe = () => {
         }
     }
 
-    // "zibu etbo wajp mqbk"
     function sendMil() {
         var data = {
             service_id: "service_v2tgrwd",
