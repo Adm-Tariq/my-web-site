@@ -23,10 +23,7 @@ const ContactMe = () => {
 
     function checkInput(e) {
         e.preventDefault();
-
-        if (name.value !== "" || email.value !== "" || message.value !== "") {
-            sendMil();
-        }
+        sendMil()
     }
 
     function sendMil() {
