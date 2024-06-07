@@ -36,7 +36,7 @@ const About = () => {
                         <div className="row d-grid mt-3 " >
                             <div className="col image">
                                 <img src="https://upcdn.io/12a1yuU/raw/images/html.svg" className="rounded" alt="..." />
-                                <img src="https://drive.google.com/file/d/1q3hy1noBoolYqCZ6nIGgUNFLPPfaYhem/view?usp=drive_link" className="rounded" alt="..." />
+                                <img src="https://files.fm/f/atbb6te4tj" className="rounded" alt="..." />
                                 <img src="https://upcdn.io/12a1yuU/raw/images/js.svg" className="rounded" alt="..." />
                                 <img src="https://upcdn.io/12a1yuU/raw/images/react.svg" className="rounded" alt="..." />
                                 <img src="https://upcdn.io/12a1yuU/raw/images/redux.svg" className="rounded" alt="..." />
