@@ -61,7 +61,7 @@ const Header = () => {
                     </div>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to={"https://upcdn.io/12a1yuU/raw/cv/Adam-cv.pdf"} target="_blank" rel="noreferrer" className={"nav-link cv"}><i className="bi bi-file-earmark-person"></i>CV</Link>
+                            <Link to={"https://drive.google.com/file/d/1ujcMFa_Xtqjd5R4EVOIz-ktYMQ0FC5CN/view?usp=drive_link"} target="_blank" rel="noreferrer" className={"nav-link cv"}><i className="bi bi-file-earmark-person"></i>CV</Link>
                         </li></ul>
                 </div>
             </nav>
