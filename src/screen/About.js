@@ -43,19 +43,19 @@ const About = () => {
                                 <img src="https://i.imghippo.com/files/Q5Iko1717775825.svg" className="rounded" alt="BOOTSTRAP" />
                             </div>
                             <div className="col image">
-                                <img src="https://upcdn.io/12a1yuU/raw/images/sass.svg" className="rounded" alt="SASS" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/jquery.svg" className="rounded" alt="JQYERY" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/php.svg" className="rounded" alt="PHP" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/Node.js.svg" className="rounded" alt="NODEJS" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/expressjs.svg" className="rounded" alt="EXPRESS" />
+                                <img src="https://i.imghippo.com/files/TLdDG1717775949.svg" className="rounded" alt="SASS" />
+                                <img src="https://i.imghippo.com/files/E2P5Q1717775984.svg" className="rounded" alt="JQYERY" />
+                                <img src="https://i.imghippo.com/files/83J3C1717776020.svg" className="rounded" alt="PHP" />
+                                <img src="https://i.imghippo.com/files/zRBtg1717776049.svg" className="rounded" alt="NODEJS" />
+                                <img src="https://i.imghippo.com/files/bNQ0D1717776071.svg" className="rounded" alt="EXPRESS" />
                             </div>
                             <div className="col image">
-                                <img src="https://upcdn.io/12a1yuU/raw/images/firebase-seeklogo.svg" className="rounded" alt="FIREBASE" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/mysql-seeklogo.svg" className="rounded" alt="MYSQL" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/mongos.svg" className="rounded" alt="MONGOS" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/git.svg" className="rounded" alt="GIT" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/githup.svg" className="rounded" alt="GITHUP" />
-                                <img src="https://upcdn.io/12a1yuU/raw/images/vs.svg" className="rounded" alt="VS" />
+                                <img src="https://i.imghippo.com/files/MnQHS1717776095.svg" className="rounded" alt="FIREBASE" />
+                                <img src="https://i.imghippo.com/files/BDOr11717776118.svg" className="rounded" alt="MYSQL" />
+                                <img src="https://i.imghippo.com/files/tQAT81717776144.svg" className="rounded" alt="MONGOS" />
+                                <img src="https://i.imghippo.com/files/ryZhV1717776168.svg" className="rounded" alt="GIT" />
+                                <img src="https://i.imghippo.com/files/B4Bjk1717776189.svg" className="rounded" alt="GITHUP" />
+                                <img src="https://i.imghippo.com/files/5yOFF1717776209.svg" className="rounded" alt="VS" />
                             </div>
 
                         </div>
