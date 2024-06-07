@@ -35,7 +35,7 @@ const About = () => {
                         </div>
                         <div className="row d-grid mt-3 " >
                             <div className="col image">
-                                <img src="https://upcdn.io/12a1yuU/raw/images/html.svg" className="rounded" alt="..." />
+                                <img src="https://i.imghippo.com/files/SeVz81717774904.svg" className="rounded" alt="..." />
                                 <img src="https://www.imghippo.com/i/sZy551717774688.svg" className="rounded" alt="..." />
                                 <img src="https://upcdn.io/12a1yuU/raw/images/js.svg" className="rounded" alt="..." />
                                 <img src="https://upcdn.io/12a1yuU/raw/images/react.svg" className="rounded" alt="..." />
